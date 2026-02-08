@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="2.3">
+    <module name="org.netbeans.modules.projectui" spec="1.1" />
+    <name unique="explorer" />
+  <kind type="view" />
+  <state type="joined" />
+  <constraints>
+    <path orientation="horizontal" number="20" weight="0.16184288245717662"/>
+    <path orientation="vertical" number="20" weight="0.7790575916230367"/>
+  </constraints>
+  <bounds x="191" y="282" width="440" height="435" />
+  <frame state="0"/>
+    <active-tc  id="buglistTopComponent" />
+    <empty-behavior permanent="true"/>
+</mode>

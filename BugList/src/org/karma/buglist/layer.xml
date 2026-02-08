@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-karma-buglist-buglistAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.karma.buglist.Bundle"/>
+                <attr name="component" methodvalue="org.karma.buglist.buglistTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.karma.buglist.Bundle#CTL_buglistAction"/>
+                <attr name="iconBase" stringvalue="org/karma/buglist/1246385891_folder_explore.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="buglistAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-karma-buglist-buglistAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="buglistTopComponent.settings" url="buglistTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">                
+               <file name="buglistTopComponent.wstcref" url="buglistTopComponentWstcref.xml"/>
+               
+             
+            </folder>
+        </folder>
+    </folder>
+    
+    
+</filesystem>
