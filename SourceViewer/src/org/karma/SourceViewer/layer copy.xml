@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Source">
+            <file name="org-karma-SourceViewer-GoToLineAction.instance">
+                <attr name="delegate" newvalue="org.karma.SourceViewer.GoToLineAction"/>
+                <attr name="displayName" bundlevalue="org.karma.SourceViewer.Bundle#CTL_GoToLineAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+        </folder>
+        <folder name="VisiCode">
+            <file name="org-karma-SourceViewer-KeywordCloudAction.instance">
+                <attr name="delegate" newvalue="org.karma.SourceViewer.KeywordCloudAction"/>
+                <attr name="displayName" bundlevalue="org.karma.SourceViewer.Bundle#CTL_KeywordCloudAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="org-karma-SourceViewer-SearchFileAction.instance">
+                <attr name="delegate" newvalue="org.karma.SourceViewer.SearchFileAction"/>
+                <attr name="displayName" bundlevalue="org.karma.SourceViewer.Bundle#CTL_SearchFileAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-karma-SourceViewer-SourceViewerAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.karma.SourceViewer.Bundle"/>
+                <attr name="component" methodvalue="org.karma.SourceViewer.SourceViewerTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.karma.SourceViewer.Bundle#CTL_SourceViewerAction"/>
+                <attr name="iconBase" stringvalue="org/karma/SourceViewer/1246385659_eye.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+            <file name="org-karma-SourceViewer-SummaryAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.karma.SourceViewer.Bundle"/>
+                <attr name="component" methodvalue="org.karma.SourceViewer.SummaryTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.karma.SourceViewer.Bundle#CTL_SummaryAction"/>
+                <attr name="iconBase" stringvalue="org/karma/SourceViewer/1248617459_layer-resize-actual.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="SourceViewerAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-karma-SourceViewer-SourceViewerAction.instance"/>
+            </file>
+            <file name="SummaryAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-karma-SourceViewer-SummaryAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Shortcuts">
+        <file name="D-F.shadow">
+            <attr name="originalFile" stringvalue="Actions/VisiCode/org-karma-SourceViewer-KeywordCloudAction.instance"/>
+        </file>
+        <file name="D-L.shadow">
+            <attr name="originalFile" stringvalue="Actions/Source/org-karma-SourceViewer-GoToLineAction.instance"/>
+        </file>
+        <file name="M-F.shadow">
+            <attr name="originalFile" stringvalue="Actions/VisiCode/org-karma-SourceViewer-KeywordCloudAction.instance"/>
+        </file>
+        <file name="M-L.shadow">
+            <attr name="originalFile" stringvalue="Actions/Source/org-karma-SourceViewer-GoToLineAction.instance"/>
+        </file>
+        <file name="O-F.shadow">
+            <attr name="originalFile" stringvalue="Actions/VisiCode/org-karma-SourceViewer-SearchFileAction.instance"/>
+        </file>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="SourceViewerTopComponent.settings" url="SourceViewerTopComponentSettings.xml"/>
+            <file name="SummaryTopComponent.settings" url="SummaryTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="SourceViewerTopComponent.wstcref" url="SourceViewerTopComponentWstcref.xml"/>
+                <file name="SummaryTopComponent.wstcref" url="SummaryTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
