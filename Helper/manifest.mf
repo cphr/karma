@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.karma.helper
+OpenIDE-Module-Layer: org/karma/helper/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/karma/helper/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

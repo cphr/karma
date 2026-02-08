@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.apisupport.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/nb-module-project/3">
+            <code-name-base>org.karma.javafx.swing</code-name-base>
+            <suite-component/>
+            <module-dependencies/>
+            <public-packages>
+                <package>com.sun.javafx.embed.swing</package>
+                <package>com.sun.javafx.embed.swing.newimpl</package>
+                <package>javafx.embed.swing</package>
+            </public-packages>
+            <class-path-extension>
+                <runtime-relative-path>ext/javafx.swing.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/javafx.swing.jar</binary-origin>
+            </class-path-extension>
+        </data>
+    </configuration>
+</project>
