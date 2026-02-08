@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.karma.analyser
+OpenIDE-Module-Localizing-Bundle: org/karma/analyser/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

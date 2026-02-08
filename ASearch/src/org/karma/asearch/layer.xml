@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="AdvancedSearch">
+            <file name="org-karma-asearch-CodeSearchAction.instance">
+                <attr name="delegate" newvalue="org.karma.asearch.CodeSearchAction"/>
+                <attr name="displayName" bundlevalue="org.karma.asearch.Bundle#CTL_CodeSearchAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Shortcuts">
+        <file name="D-J.shadow">
+            <attr name="originalFile" stringvalue="Actions/AdvancedSearch/org-karma-asearch-CodeSearchAction.instance"/>
+        </file>
+        <file name="M-J.shadow">
+            <attr name="originalFile" stringvalue="Actions/AdvancedSearch/org-karma-asearch-CodeSearchAction.instance"/>
+        </file>
+    </folder>
+</filesystem>

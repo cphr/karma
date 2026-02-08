@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+
+
+    <!-- hide unused toolbars -->
+	<folder name="Actions">
+        <folder name="Build">
+            <file name="org-karma-filemenu-Tagging.instance_hidden"/>
+            
+        </folder>
+        <file name="Debug_hidden"/>
+        <file name="Edit_hidden"/>
+        <file name="GlassFish_hidden"/>
+        <file name="LocalHistory_hidden"/>
+        <file name="Mercurial_hidden"/>
+        <file name="Profile_hidden"/>
+        <file name="Project_hidden"/>
+        <file name="Refactoring_hidden"/>
+        <file name="Repository_hidden"/>
+        <file name="System_hidden"/>
+        <file name="Terminal_hidden"/>
+        <file name="Versioning_hidden"/>
+        <folder name="View">
+            <file name="org-netbeans-core-actions-HTMLViewAction.instance_hidden"/>
+            <file name="org-netbeans-core-actions-LogAction.instance_hidden"/>
+            <file name="org-openide-actions-CustomizeAction.instance_hidden"/>
+            <file name="org.netbeans.modules.image.CustomZoomAction.instance_hidden"/>
+            <file name="org.netbeans.modules.image.ZoomInAction.instance_hidden"/>
+            <file name="org.netbeans.modules.image.ZoomOutAction.instance_hidden"/>
+        </folder>
+        <folder name="Window">
+            <file name="Debug_hidden"/>
+            <file name="LocalTerminalAction.instance_hidden"/>
+            <file name="RemoteTerminalAction.instance_hidden"/>
+            <file name="SelectDocumentNode_hidden"/>
+            <file name="ShowTerminalTCAction.instance_hidden"/>
+            <file name="org-netbeans-core-ide-ServicesTabAction.instance_hidden"/>
+            <file name="org-netbeans-core-io-ui-IOWindowAction.instance_hidden"/>
+            <file name="org-netbeans-core-windows-actions-GlobalPropertiesAction.instance_hidden"/>
+            <file name="org-netbeans-modules-favorites-View.instance_hidden"/>
+            <file name="org-netbeans-modules-gsf-testrunner-api-ResultWindowOpenAction.instance_hidden"/>
+            <file name="org-netbeans-modules-palette-ShowPaletteAction.instance_hidden"/>
+            <file name="org-netbeans-modules-refactoring-spi-impl-FindUsagesOpenAction.instance_hidden"/>
+            <file name="org-netbeans-modules-refactoring-spi-impl-RefactoringPreviewOpenAction.instance_hidden"/>
+            <file name="org-netbeans-modules-tasklist-ui-TaskListAction.instance_hidden"/>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+
+		<file name="Build_hidden"/>
+        <file name="Clipboard_hidden"/>
+        <file name="Debug_hidden"/>
+        <folder name="Edit_hidden"/>
+        <folder name="Help_hidden"/>
+        <file name="Memory_hidden"/>
+        <folder name="Profile_hidden"/>
+        <folder name="Project_hidden"/>
+        <folder name="System_hidden"/>
+        <folder name="Edit_hidden"/>
+        <folder name="View_hidden"/>
+                <folder name="GoTo_hidden"/>
+                <folder name="File_hidden"/>
+                 <folder name="QuickSearch_hidden"/>
+        <folder name="UndoRedo_hidden"/>
+
+	</folder>
+
+	<folder name="Menu">
+
+		<file name="BuildProject_hidden"/>
+        <folder name="File_hidden"/>
+		<folder name="Edit_hidden"/>
+                <folder name="GoTo_hidden"/>
+        <file name="Refactoring_hidden"/>
+        <file name="RunProject_hidden"/>
+        <file name="Source_hidden"/>
+        <folder name="Tools">
+            <file name="LibrariesCustomizerAction.shadow_hidden"/>
+            <file name="PaletteManager_hidden"/>
+            <file name="ServerManagerAction3.shadow_hidden"/>
+            <file name="org-karma-filemenu-ReportExport.shadow_hidden"/>
+            <file name="org-netbeans-modules-favorites-templates-TemplatesAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-xml-catalog-CatalogAction.shadow_hidden"/>
+        </folder>
+        <folder name="UndoRedo_hidden"/>
+
+	    <file name="Versioning_hidden"/>
+        <folder name="View">
+            <file name="Separator1.instance_hidden"/>
+            <file name="org-netbeans-core-actions-HTMLViewAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-editor-NbCodeFoldingAction.instance_hidden"/>
+            <file name="org-netbeans-modules-project-ui-SyncEditorWithViewsAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-versioning-ShowTextAnnotationsAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-versioning-diff-ShowDiffSidebarAction.shadow_hidden"/>
+            <file name="toggle-line-numbers.shadow_hidden"/>
+            <file name="toggle-toolbar.shadow_hidden"/>
+            <file name="toggle-non-printable-characters.shadow_hidden"/>
+        </folder>
+        <folder name="Window">
+            <file name="CloneDocumentAction.shadow_hidden"/>
+            <file name="CloseAllButThisAction.shadow_hidden"/>
+            <file name="CloseAllDocumentsAction.shadow_hidden"/>
+            <file name="DocumentsAction.shadow_hidden"/>
+            <folder name="Output_hidden"/>
+            
+            <file name="ProgressListAction.shadow_hidden"/>
+            <file name="Separator4.instance_hidden"/>
+            <file name="ShowPaletteAction.shadow_hidden"/>
+            <file name="org-netbeans-core-ide-ServicesTabAction.shadow_hidden"/>
+            <file name="org-netbeans-core-windows-actions-GlobalPropertiesAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-favorites-View.shadow_hidden"/>
+            <file name="org-netbeans-modules-project-ui-logical-tab-action.shadow_hidden"/>
+            <file name="org-netbeans-modules-project-ui-physical-tab-action.shadow_hidden"/>
+            <file name="org-netbeans-modules-tasklist-ui-TaskListAction.shadow_hidden"/>
+        </folder>
+    </folder>
+
+        <folder name="Window">
+             <file name="ProgressListAction.shadow_hidden"/>
+            <file name="SwitchToRecentDocumentAction.shadow_hidden"/>
+            <file name="ViewFavoritesTabAction.shadow_hidden"/>
+            <file name="CloseWindowAction.shadow_hidden"/>
+            <file name="CloneDocumentAction.shadow_hidden"/>
+            <file name="CloseAllDocumentsAction.shadow_hidden"/>
+            <file name="CloseAllButThisAction.shadow_hidden"/>
+            <file name="DocumentsAction.shadow_hidden"/>
+            <file name="org-netbeans-core-actions-GlobalPropertiesAction.shadow_hidden"/>
+            <file name="Output_hidden"/>
+        </folder>
+
+<folder name="View">
+            <!-- hide the default web browser that doesn't render stuff very well -->
+            <file name="org-netbeans-core-actions-HTMLViewAction.instance_hidden"/>
+        </folder>
+
+
+</filesystem>
