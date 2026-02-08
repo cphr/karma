@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.karma.trainer
+OpenIDE-Module-Localizing-Bundle: org/karma/trainer/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
