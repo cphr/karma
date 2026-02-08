@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-karma-engineinfo-EngineInfoAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.karma.engineinfo.Bundle"/>
+                <attr name="component" methodvalue="org.karma.engineinfo.EngineInfoTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.karma.engineinfo.Bundle#CTL_EngineInfoAction"/>
+                <attr name="iconBase" stringvalue="org/karma/engineinfo/1246476662_kbackgammon_engine.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="EngineInfoAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-karma-engineinfo-EngineInfoAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="EngineInfoTopComponent.settings" url="EngineInfoTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="EngineInfoTopComponent.wstcref" url="EngineInfoTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

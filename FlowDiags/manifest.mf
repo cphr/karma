@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: FlowDiags
+OpenIDE-Module-Layer: FlowDiags/layer.xml
+OpenIDE-Module-Localizing-Bundle: FlowDiags/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

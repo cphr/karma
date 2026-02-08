@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+
+        <folder name="Karma">
+		 <file name="org-karma-filemenu-Signatures.instance">
+                <attr name="delegate" newvalue="org.karma.filemenu.Signatures"/>
+                <attr name="displayName" bundlevalue="org.karma.filemenu.Bundle#CTL_Signatures"/>
+                <attr name="iconBase" stringvalue="org/karma/filemenu/yes.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+
+            <file name="org-karma-filemenu-KarmaTrainer.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.karma.filemenu.Bundle"/>
+                <attr name="delegate" newvalue="org.karma.filemenu.KarmaTrainer"/>
+                <attr name="displayName" bundlevalue="org.karma.filemenu.Bundle#CTL_KarmaTrainer"/>
+                <attr name="iconBase" stringvalue="org/karma/filemenu/1248731504_leaf.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="org-karma-filemenu-KarmaXchange.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.karma.filemenu.Bundle"/>
+                <attr name="delegate" newvalue="org.karma.filemenu.KarmaXchange"/>
+                <attr name="displayName" bundlevalue="org.karma.filemenu.Bundle#CTL_KarmaXchange"/>
+                <attr name="iconBase" stringvalue="org/karma/filemenu/1248732288_fileshare.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="org-karma-filemenu-StartBrains.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.karma.filemenu.Bundle"/>
+                <attr name="delegate" newvalue="org.karma.filemenu.StartBrains"/>
+                <attr name="displayName" bundlevalue="org.karma.filemenu.Bundle#CTL_StartBrains"/>
+                <attr name="iconBase" stringvalue="org/karma/filemenu/1248732048_Options.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+        </folder>
+        <folder name="Tools">
+            <file name="org-karma-filemenu-ReportExport.instance_hidden"/>
+        </folder>
+    </folder>
+    <folder name="Menu">
+         <folder name="Tools">
+            <attr name="org-karma-filemenu-Signatures.shadow/PaletteManager" boolvalue="true"/>
+            <file name="org-karma-filemenu-KarmaXchange.shadow">
+                <attr name="originalFile" stringvalue="Actions/Karma/org-karma-filemenu-KarmaXchange.instance"/>
+                <attr name="position" intvalue="0"/>
+            </file>
+            <file name="org-karma-filemenu-Signatures.shadow">
+                <attr name="originalFile" stringvalue="Actions/Karma/org-karma-filemenu-Signatures.instance"/>
+            </file>
+            <file name="org-karma-filemenu-Tagging-separatorBefore.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="-200"/>
+            </file>
+            <file name="org-karma-filemenu-Tagging.shadow">
+                <attr name="originalFile" stringvalue="Actions/Karma/org-karma-filemenu-Tagging.instance"/>
+                <attr name="position" intvalue="-100"/>
+            </file>
+        </folder>
+        <folder name="Training Centre">
+            
+            <file name="org-karma-filemenu-KarmaTrainer.shadow">
+                <attr name="originalFile" stringvalue="Actions/Karma/org-karma-filemenu-KarmaTrainer.instance"/>
+                <attr name="position" intvalue="0"/>
+            </file>
+            
+            <file name="org-karma-filemenu-StartBrains-separatorBefore.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="-200"/>
+            </file>
+            <file name="org-karma-filemenu-StartBrains.shadow">
+                <attr name="originalFile" stringvalue="Actions/Karma/org-karma-filemenu-StartBrains.instance"/>
+                <attr name="position" intvalue="-100"/>
+            </file>
+        </folder>
+    </folder>
+   
+    <folder name="Shortcuts">
+        <file name="D-A.shadow">
+            <attr name="originalFile" stringvalue="Actions/Karma/org-karma-filemenu-Tagging.instance"/>
+        </file>
+        <file name="D-T.shadow">
+            <attr name="originalFile" stringvalue="Actions/Karma/org-karma-filemenu-Tagging.instance"/>
+        </file>
+        <file name="D-U.shadow">
+            <attr name="originalFile" stringvalue="Actions/Karma/org-karma-filemenu-Tagging.instance"/>
+        </file>
+        <file name="M-R.shadow">
+            <attr name="originalFile" stringvalue="Actions/Karma/org-karma-filemenu-Signatures.instance"/>
+        </file>
+    </folder>
+</filesystem>
