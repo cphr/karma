@@ -168,7 +168,7 @@ public static void trainClassifier(ITokenizer pITokenizer, ITrainableClassifier 
    bug =  bug.replaceAll(Pattern.quote("("), " ( ");
    bug =  bug.replaceAll(Pattern.quote(")"), " ) ");
    bug =  bug.replaceAll(Pattern.quote(","), " , ");
-   bug =  bug.replaceAll(Pattern.quote("l"), " ; ");
+   bug =  bug.replaceAll(Pattern.quote(";"), " ; ");
    bug =  bug.replaceAll(Pattern.quote("]"), " ] ");
    bug =  bug.replaceAll(Pattern.quote("["), " [ ");
    bug =  bug.replaceAll(Pattern.quote("{"), " { ");
