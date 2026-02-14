@@ -346,7 +346,7 @@ public static double useClassifier(ITokenizer paramITokenizer, IClassifier karma
    checkString =  checkString.replaceAll(Pattern.quote("("), " ( ");
    checkString =  checkString.replaceAll(Pattern.quote(")"), " ) ");
    checkString =  checkString.replaceAll(Pattern.quote(","), " , ");
-   checkString =  checkString.replaceAll(Pattern.quote("l"), " ; ");
+   checkString =  checkString.replaceAll(Pattern.quote(";"), " ; ");
    checkString =  checkString.replaceAll(Pattern.quote("]"), " ] ");
    checkString =  checkString.replaceAll(Pattern.quote("["), " [ ");
    checkString =  checkString.replaceAll(Pattern.quote("{"), " { ");
