@@ -71,6 +71,7 @@ import org.openide.windows.WindowManager;
 dtd="-//org.karma.SourceViewer//SourceViewer//EN",
 autostore=false
 )*/
+
 public /*final*/ class SourceViewerTopComponent extends TopComponent {
 final static String whereAMI = ""+KarmaVaultHelp.class.getProtectionDomain().getCodeSource().getLocation().getPath();
 final static String RootDir =new File(whereAMI.substring(whereAMI.indexOf(System.getProperty("file.separator")))).getParent()+System.getProperty("file.separator")+".."+System.getProperty("file.separator")+"Doxygen.config";
@@ -100,7 +101,8 @@ final static String RootDir =new File(whereAMI.substring(whereAMI.indexOf(System
         JPanel searchP = new jsyntaxpane.actions.gui.QuickFindPanel(SourceCode, (new jsyntaxpane.actions.DocumentSData()).getFromEditor(SourceCode));
         SourceCode.requestFocus();
         if (org.karma.helper.projectInfo.StartUpCount == 0) {
-            
+		    putClientProperty(TopComponent.PROP_CLOSING_DISABLED, Boolean.TRUE);
+		   	putClientProperty(TopComponent.PROP_UNDOCKING_DISABLED, Boolean.TRUE);
             jSplitPane1.removeAll();
             jSplitPane1.add(SourceCode);
             SourceCode.setContentType("text/html");
