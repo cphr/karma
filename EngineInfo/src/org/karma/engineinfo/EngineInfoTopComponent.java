@@ -14,6 +14,8 @@ import org.openide.windows.TopComponent;
 import org.openide.windows.WindowManager;
 import org.openide.util.ImageUtilities;
 import org.netbeans.api.settings.ConvertAsProperties;
+import org.openide.windows.Mode;
+
 //import org.karma.helper.ParseConfig;
 
 /**
@@ -31,6 +33,16 @@ public final class EngineInfoTopComponent extends TopComponent {
     static final String ICON_PATH = "org/karma/engineinfo/1246476662_kbackgammon_engine.png";
 
     private static final String PREFERRED_ID = "EngineInfoTopComponent";
+	
+    public void open() {
+      Mode m = WindowManager.getDefault().findMode ("output");
+      if (m != null) {
+         m.dockInto(this);
+      }
+      super.open();
+   }
+   
+   
 
     public EngineInfoTopComponent() {
         initComponents();
