@@ -58,6 +58,9 @@ import org.openide.util.Exceptions;
 import org.openide.util.NbBundle;
 import org.openide.windows.TopComponent;
 import org.openide.util.ImageUtilities;
+import org.openide.windows.Mode;
+import org.openide.windows.WindowManager;
+
 
 //import org.netbeans.api.settings.ConvertAsProperties;
 /**
@@ -84,6 +87,13 @@ final static String RootDir =new File(whereAMI.substring(whereAMI.indexOf(System
     public static String word;
     public static Highlighter highlighter = new UnderlineHighlighter(null);
 
+    public void open() {
+              Mode m = WindowManager.getDefault().findMode ("editor");
+              if (m != null) {    m.dockInto(this);   }
+          super.open();
+          }
+		  
+		  
     public SourceViewerTopComponent() {
 
         initComponents();
