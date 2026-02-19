@@ -101,8 +101,8 @@ final static String RootDir =new File(whereAMI.substring(whereAMI.indexOf(System
         JPanel searchP = new jsyntaxpane.actions.gui.QuickFindPanel(SourceCode, (new jsyntaxpane.actions.DocumentSData()).getFromEditor(SourceCode));
         SourceCode.requestFocus();
         if (org.karma.helper.projectInfo.StartUpCount == 0) {
-		    putClientProperty(TopComponent.PROP_CLOSING_DISABLED, Boolean.TRUE);
-		   	putClientProperty(TopComponent.PROP_UNDOCKING_DISABLED, Boolean.TRUE);
+		    //putClientProperty(TopComponent.PROP_CLOSING_DISABLED, Boolean.TRUE);
+		   	//putClientProperty(TopComponent.PROP_UNDOCKING_DISABLED, Boolean.TRUE);
             jSplitPane1.removeAll();
             jSplitPane1.add(SourceCode);
             SourceCode.setContentType("text/html");
