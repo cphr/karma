@@ -38,7 +38,8 @@ public final class EngineInfoTopComponent extends TopComponent {
         setName(NbBundle.getMessage(EngineInfoTopComponent.class, "CTL_EngineInfoTopComponent"));
         setToolTipText(NbBundle.getMessage(EngineInfoTopComponent.class, "HINT_EngineInfoTopComponent"));
         setIcon(ImageUtilities.loadImage(ICON_PATH, true));
-	putClientProperty(TopComponent.PROP_CLOSING_DISABLED, Boolean.TRUE);
+		putClientProperty(TopComponent.PROP_CLOSING_DISABLED, Boolean.TRUE);
+		putClientProperty(TopComponent.PROP_UNDOCKING_DISABLED, Boolean.TRUE);
        final String DATE_FORMAT_NOW = "yyyy-MM-dd HH:mm:ss";
         Calendar cal = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT_NOW);
