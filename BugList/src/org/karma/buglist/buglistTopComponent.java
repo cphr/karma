@@ -227,6 +227,7 @@ public  class buglistTopComponent extends TopComponent  {
     
     private void openEditor()
     {
+	    org.karma.helper.projectInfo.StartUpCount++;
     
     //Bring source code up with bug lines
         if (bugsFiles.size()>0)
